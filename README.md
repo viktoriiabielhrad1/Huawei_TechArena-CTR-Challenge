@@ -45,13 +45,14 @@ Dataset/starter code released with Phase 1 on Oct 21
 
 Replay of the webinar + slides will be posted on the platform
 
-Update (25 Oct): Step2 - adding history length as a feature; time_bucket/day_type showed basically no standalone effect, so we keep them but shouldn’t over-invest there
-
 ---------------------------------------------------------------------------------------------
 
-Starter solution - what needs to change - steps
+Update (25 Oct):
+-
+Step2 - adding history length as a feature; time_bucket/day_type showed basically no standalone effect, so we keep them but shouldn’t over-invest there
 
------------------------------------------------------------------------------------------------
+Starter solution - what needs to change - steps
+-
 
 Step 1. Add a time-based train/validation split - Viktoriia
 -
