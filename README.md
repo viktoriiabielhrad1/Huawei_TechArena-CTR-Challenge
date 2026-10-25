@@ -49,7 +49,11 @@ Replay of the webinar + slides will be posted on the platform
 
 Update (25 Oct):
 -
-Step2 - adding history length as a feature; time_bucket/day_type showed basically no standalone effect, so we keep them but shouldn’t over-invest there
+--Step2--
+
+Based on EDA findings: Adding history_length as an explicit feature - EDA showed 'users with no history' click ~31% less often than users with long history (4.35% vs 6.34%), too strong a signal to leave out. 
+
+Also, time_bucket/day_type showed almost no standalone effect in EDA (weekday 6.30% vs weekend 6.29%, time buckets all ~6.3%) - keeping them in the feature list, but not worth extra engineering effort on them specifically
 
 Starter solution - what needs to change - steps
 -
